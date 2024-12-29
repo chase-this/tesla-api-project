@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tesla API Login</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tesla API Login</h1>
+    <form id="loginForm">
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter Tesla email" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter Tesla password" required>
+
+      <label for="clientId">Client ID:</label>
+      <input type="text" id="clientId" placeholder="Enter Client ID" required>
+
+      <label for="clientSecret">Client Secret:</label>
+      <input type="text" id="clientSecret" placeholder="Enter Client Secret" required>
+
+      <button type="submit">Login</button>
+    </form>
+    <div id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
